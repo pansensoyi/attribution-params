@@ -1,0 +1,25 @@
+{
+  "name": "@pansensoyi/attribution-params",
+  "version": "0.1.0",
+  "description": "Capture UTMs and ad click IDs, infer source/medium, keep first & last-non-direct touch, and pass attribution into forms, CRMs and cross-domain links.",
+  "license": "MIT",
+  "author": "Ian Pansensoy",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" } },
+  "files": ["dist"],
+  "sideEffects": false,
+  "keywords": ["utm","attribution","gclid","fbclid","marketing","martech","analytics","lead-tracking"],
+  "repository": { "type": "git", "url": "git+https://github.com/pansensoyi/attribution-params.git" },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}
