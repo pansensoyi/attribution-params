@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Capture UTMs and ad click IDs, infer source/medium, keep first & last-non-direct touch, and pass attribution into forms, CRMs and cross-domain links.",
   "license": "MIT",
-  "author": "Ian Pansensoy",
+  "author": "Ian Pansensoy <ipansensoy@gmail.com> (https://github.com/pansensoyi)",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
